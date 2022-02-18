@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard contador 1`] = `
+<div
+  className="productCard "
+>
+  <span>
+    0
+  </span>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+</div>
+`;
+
+exports[`ProductCard contador 2`] = `"1"`;
+
+exports[`ProductCard mostrar componente 1`] = `
+<div
+  className="productCard "
+>
+  <h1>
+    Product 1
+  </h1>
+</div>
+`;

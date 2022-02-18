@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage mostrar componente 1`] = `
+<img
+  alt="image"
+  className="productImg "
+  src="ruta"
+/>
+`;
+
+exports[`ProductImage mostrar componente con imagen de producto 1`] = `
+<div
+  className="productCard "
+>
+  <img
+    alt="Coffe Mug 2"
+    className="productImg "
+    src="coffeMug2"
+  />
+</div>
+`;

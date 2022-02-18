@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle mostrar componente 1`] = `
+<span
+  className="productDescription "
+>
+  Product Title
+</span>
+`;
+
+exports[`ProductTitle mostrar componente con nombre de producto 1`] = `
+<div
+  className="productCard "
+>
+  <span
+    className="productDescription "
+  >
+    Coffe Mug 2
+  </span>
+</div>
+`;

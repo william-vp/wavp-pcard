@@ -5,7 +5,7 @@ import {ProductContext} from "./ProductCard";
 export const ProductTitle = ({title = '', className= ''}: { title?: string, className?: string }) => {
     const {product} = useContext(ProductContext)
     let titleShow: string = title;
-    if (product.title) {
+    if (product?.title) {
         titleShow = product.title
     }
     return (

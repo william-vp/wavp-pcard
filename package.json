@@ -10,10 +10,16 @@
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "url": "https://github.com/william-vp/wavp-pcard",
+    "type": "git"
+  },
+  "homepage": "www.wviteri.com",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
+    "test": "tsdx test",
+    "test:watch": "tsdx test --watch",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
@@ -52,12 +58,30 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "husky": "^7.0.4",
+    "identity-obj-proxy": "^3.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^17.0.2"
+  },
+  "keywords": [
+    "product",
+    "card",
+    "wviteri"
+  ],
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }
